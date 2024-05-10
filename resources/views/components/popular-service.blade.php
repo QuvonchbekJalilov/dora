@@ -7,13 +7,13 @@
 
                     
                     <div class="rts-product-area">
-                        <a class="thumbnail" href="/site-services/6" data-sal-delay="150" data-sal="zoom-in" data-sal-duration="800">
+                        <a class="thumbnail" href="https://dora.uz/site-services/6" data-sal-delay="150" data-sal="zoom-in" data-sal-duration="800">
                             <img class="img-1" src="{{ asset('assets/images/popular_service/kafil-website.png') }}" alt="axela_product">
 
                         </a>
                         <div class="inner" data-sal-delay="250" data-sal="slide-up" data-sal-duration="1000">
                             <span>DORA DEV.</span>
-                            <a href="/site-services/6">
+                            <a href="https://dora.uz/site-services/6">
                                 <h5 class="title mb--0">
                                 @lang('index.popular_service.corporate_website')
                                 </h5>
@@ -27,13 +27,13 @@
                     <!-- single product area -->
                     <div class="rts-product-area inner">
                         <div class="wrapper">
-                            <a class="thumbnail" href="/site-services/3" data-sal-delay="150" data-sal="zoom-in" data-sal-duration="800">
+                            <a class="thumbnail" href="https://dora.uz/seo-services/3" data-sal-delay="150" data-sal="zoom-in" data-sal-duration="800">
                                 <img class="img-1" src="{{ asset('assets/images/popular_service/create-logo.png') }}" alt="axela_product">
 
                             </a>
                             <div class="inner" data-sal-delay="350" data-sal="slide-up" data-sal-duration="1000">
                                 <span>DORA BRANDING</span>
-                                <a href="/site-services/3">
+                                <a href="https://dora.uz/seo-services/3">
                                     <h5 class="title">   
                                         @lang('index.popular_service.create_logo')              
                                     </h5>
@@ -48,13 +48,13 @@
                 <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12 col-12">
                     <!-- single product area -->
                     <div class="rts-product-area">
-                        <a class="thumbnail" href="/seo-services/9" data-sal-delay="150" data-sal="zoom-in" data-sal-duration="800">
+                        <a class="thumbnail" href="https://dora.uz/seo-services/9" data-sal-delay="150" data-sal="zoom-in" data-sal-duration="800">
                             <img class="img-1" src="{{ asset('assets/images/popular_service/crm.png') }}" alt="axela_product">
 
                         </a>
                         <div class="inner" data-sal-delay="250" data-sal="slide-up" data-sal-duration="1000">
                             <span>DORA DEV.</span>
-                            <a href="/seo-services/9">
+                            <a href="https://dora.uz/seo-services/9">
                                 <h5 class="title mb--0">
                                     @lang('index.popular_service.add_crm')  
                                 </h5>
