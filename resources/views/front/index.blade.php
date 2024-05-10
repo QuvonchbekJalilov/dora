@@ -15,8 +15,7 @@ DORA - DIGITAL COMPANY
 
 <x-brend />
 
-<x-popular-service :title="__('index.popular_service.smm_service')" />
-
+<x-popular-service/>
 
 <x-banner-call />
 
