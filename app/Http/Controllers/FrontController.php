@@ -64,10 +64,10 @@ class FrontController extends Controller
         return view('front.development');
     }
     
-     public function marketing()
-    {
-        return view('front.marketing');
-    }
+    //  public function marketing()
+    // {
+    //     return view('front.marketing');
+    // }
     
      public function print()
     {
@@ -162,6 +162,36 @@ class FrontController extends Controller
         $designservices = DesignService::all();
         return view('front.ServiceList',compact('blogs','siteservices','designservices','seoservices'));
     }
+
+    // marketing
+
+    public function ads()
+    {
+        $seoservices = SeoService::all();
+        $siteservices = SiteService::all();
+        $blogs = Blog::paginate(100);
+        $designservices = DesignService::all();
+        return view('front.tools',compact('blogs','siteservices','designservices','seoservices',));
+    }
+
+    public function tools()
+    {
+        $seoservices = SeoService::all();
+        $siteservices = SiteService::all();
+        $blogs = Blog::paginate(100);
+        $designservices = DesignService::all();
+        return view('front.ads',compact('blogs','siteservices','designservices','seoservices',));
+    }
+
+    public function site()
+    {
+        $seoservices = SeoService::all();
+        $siteservices = SiteService::all();
+        $blogs = Blog::paginate(100);
+        $designservices = DesignService::all();
+        return view('front.site',compact('blogs','siteservices','designservices','seoservices',));
+    }
+
 
     public function brif()
     {

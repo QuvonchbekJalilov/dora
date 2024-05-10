@@ -29,9 +29,12 @@ Route::get('/footer',[FrontController::class,'footer'])->name('footer');
 Route::get('/presentation-teams',[FrontController::class,'presentation']);
 Route::get('/targeting',[FrontController::class,'smm']);
 Route::get('/development',[FrontController::class,'development']);
-Route::get('/marketing',[FrontController::class,'marketing']);
+Route::get('/ads',[FrontController::class,'ads'])->name('ads');
+Route::get('/site',[FrontController::class,'site'])->name('site');
+Route::get('/tools',[FrontController::class,'tools'])->name('tools');
 Route::get('/print',[FrontController::class,'print']);
 Route::get('/tahlil',[FrontController::class,'tahlil']);
+
 
 
 Route::get('/prices',[FrontController::class,'price'])->name('price');
