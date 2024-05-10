@@ -17,7 +17,12 @@ return[
         'download'  =>  'Скачать',
         'view'  =>  "Просмотр"
     ],
-   
+    "popular_service"   => [
+        "corporate_website" => "КОРПОРАТИВНЫЕ САЙТЫ",
+        "create_logo" => "РАЗРАБОТКА ЛОГОТИПА",
+        "add_crm" => "CRM-СИСТЕМА ДЛЯ ОТДЕЛА ПРОДАЖ",
+        "smm_sevice" => "СММ УСЛУГИ",
+    ],
     "web_service" => [
         'advantage_title_1' =>  "Адаптивность",
         'advantage_desc_1' =>  "Сайт оптимизирован под все устройства и браузеры",
