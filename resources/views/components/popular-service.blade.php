@@ -13,7 +13,7 @@
                         </a>
                         <div class="inner" data-sal-delay="250" data-sal="slide-up" data-sal-duration="1000">
                             <span>DORA DEV.</span>
-                            <a href="#https://dora.uz/site-services/6">
+                            <a href="https://dora.uz/site-services/6">
                                 <h5 class="title mb--0">
                                 @lang('index.popular_service.corporate_website')
                                 </h5>
@@ -82,6 +82,7 @@
                         </div>
                     </div>
                     <!-- single product area End -->
+                     
                 </div>
             </div>
         </div>
