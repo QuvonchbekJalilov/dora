@@ -17,6 +17,12 @@ return[
         'download'  =>  'Download',
         'view'  =>  "View"
     ],
+    "popular_service"   => [
+        "corporate_website" => "CORPORATE SITES",
+        "create_logo" => "CREATE LOGO",
+        "add_crm" => "CRM SYSTEM FOR SALES DEPARTMENT",
+        "smm_sevice" => "SMM SERVICES",
+    ],
     "web_service" => [
         'advantage_title_1' =>  "Adaptability",
         'advantage_desc_1' =>  "The site is optimized for all devices and browsers",

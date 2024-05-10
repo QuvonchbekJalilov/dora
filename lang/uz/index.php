@@ -17,6 +17,12 @@ return[
         'download'  =>  'Yuklab olish',
         'view'  =>  "Ko'rish",
     ],
+    "popular_service"   => [
+        "corporate_website" => "KORPORATIV VEB-SAYTLAR",
+        "create_logo" => "LOGO ISHLAB CHIQISH",
+        "add_crm" => "SOTUV BO'LIMI UCHUN CRM TIZIMI",
+        "smm_sevice" => "SMM XIZMATLARI",
+    ],
     "web_service" => [
         'advantage_title_1' =>  "Moslashuvchanlik",
         'advantage_desc_1' =>  "Sayt barcha qurilmalar va brauzerlar uchun optimallashtirilgan",

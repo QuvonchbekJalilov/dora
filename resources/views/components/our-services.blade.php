@@ -14,7 +14,7 @@
                         <div class="icon">
                             <img src="assets/images/service/12.svg" alt="axela_service">
                         </div>
-                        <a href="/service">
+                        <a href="/site">
                             <h5 class="title">
                                 @lang('index.development')
                             </h5>
@@ -22,7 +22,7 @@
                         <p class="disc">
                             @lang('index.development_info')
                         </p>
-                        <a href="/service" class="rts-read-more two">@lang('index.buttons.more-details')<i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="/site" class="rts-read-more two">@lang('index.buttons.more-details')<i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                     <!-- single service area end -->
                 </div>
@@ -32,7 +32,7 @@
                         <div class="icon">
                             <img src="assets/images/service/09.svg" alt="axela_service">
                         </div>
-                        <a href="/service">
+                        <a href="/ads">
                             <h5 class="title">
                                 @lang('index.marketing')
                             </h5>
@@ -40,7 +40,7 @@
                         <p class="disc">
                             @lang('index.marketing_info')
                         </p>
-                        <a href="/service" class="rts-read-more two">@lang('index.buttons.more-details')<i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="/ads" class="rts-read-more two">@lang('index.buttons.more-details')<i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                     <!-- single service area end -->
                 </div>
@@ -51,7 +51,7 @@
                         <div class="icon">
                             <img src="assets/images/service/11.svg" alt="axela_service">
                         </div>
-                        <a href="/service">
+                        <a href="/tools">
                             <h5 class="title">
                                 @lang('index.branding')
                             </h5>
@@ -59,7 +59,7 @@
                         <p class="disc">
                             @lang('index.branding_info')
                         </p>
-                        <a href="/service" class="rts-read-more two">@lang('index.buttons.more-details')<i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="/tools" class="rts-read-more two">@lang('index.buttons.more-details')<i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                     <!-- single service area end -->
                 </div>

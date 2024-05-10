@@ -17,7 +17,7 @@
 
 <body>
 
-    <!---//*-Mobile Menu Header Section-*//--->
+    <!---//*-Mobile Menu er Section-*//--->
     <div class="mobile-menu-area">
         <div class="mobile-menu">
             <div class="mobile-menu-bar">

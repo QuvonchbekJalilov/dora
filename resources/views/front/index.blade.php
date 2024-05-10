@@ -14,15 +14,11 @@ DORA - DIGITAL COMPANY
 
 <x-our-services />
 
-<x-about />
-
-<x-banner-call />
-
 <x-brend />
 
-<x-portfol />
+<x-popular-service/>
 
-<x-blogs />
+<x-banner-call />
 
 <x-contacts />
 

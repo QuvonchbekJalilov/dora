@@ -165,7 +165,7 @@ class FrontController extends Controller
 
     // marketing
 
-    public function ads()
+    public function tools()
     {
         $seoservices = SeoService::all();
         $siteservices = SiteService::all();
@@ -174,7 +174,7 @@ class FrontController extends Controller
         return view('front.tools',compact('blogs','siteservices','designservices','seoservices',));
     }
 
-    public function tools()
+    public function ads()
     {
         $seoservices = SeoService::all();
         $siteservices = SiteService::all();
