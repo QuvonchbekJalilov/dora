@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta content="DORA DIGITAL COMPANY" name="author">
+    <meta content="DORA® | International Marketing Company" name="author">
     <meta name="language" content="Rus">
 
     <link rel="apple-touch-icon" sizes="76x76" href="{{ asset('public/assets/images/fav/apple-touch-icon.png') }}">
@@ -13,7 +13,6 @@
     <link rel="manifest" href="{{ asset('public/assets/images/fav/site.webmanifest') }}">
     <link rel="mask-icon" href="{{ asset('public/assets/images/fav/safari-pinned-tab.svg') }}" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
 
     <!-- ========== Page Title ========== -->
     <title>@yield('title')</title>
@@ -63,8 +62,8 @@
         {
           "@context": "https://schema.org",
           "@type": "Organization",
-          "name": "Dora",
-          "alternateName": "Dora",
+          "name": "DORA",
+          "alternateName": "DORA",
           "url": "https://dora.uz/",
           "logo": "https://dora.uz/assets/images/logo/dora-logo-color.png",
           "contactPoint": [{
@@ -112,16 +111,6 @@
       gtag('config', 'G-JXH4F2RX0W');
     </script>
 
-    <!-- OLD
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DXTXVCEL0P"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-    
-      gtag('config', 'G-DXTXVCEL0P');
-    </script>
-   -->
     
     <!-- Google Tag Manager -->
     <script>
@@ -167,7 +156,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <!-- logo area start -->
                     <a href="{{route('index')}}" class="thumbnail">
                         <img class="active-light" src="/assets/images/logo/dora-logo-color.png" alt="DORA Logo">
-                        <img class="active-dark" src="/assets/images/logo/dora-logo-white.svg" alt="DORA Logo">
                     </a>
                     <!-- logo area end -->
                 </div>
@@ -178,9 +166,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 <li>
                                     <a href="{{route('index')}}">@lang('index.home')</a>
                                 </li>
-                                <li>
-                                    <a href="{{route('about')}}">@lang('index.about')</a>
-                                </li>
+                                
                                 <li class="has-droupdown">
                                     <a href="/service">@lang('index.services')</a>
                                     <ul class="submenu home-mega home-mega2">
@@ -242,13 +228,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             <li>
                                 <a href="{{route('portfolio')}}">@lang('index.portfolio')</a>
                             </li>
-                            <li>
-                                <a href="{{route('blog')}}">@lang('index.blog')</a>
-                            </li>
 
-                            <li>
-                                <a href="{{route('contact')}}">@lang('index.contact')</a>
-                            </li>
+
 
                             <li class="has-droupdown ">
                                 <a href="#">@lang('index.language')</a>
@@ -294,7 +275,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <!-- inner menu area desktop start -->
         <div class="rts-sidebar-menu-desktop">
             <a class="logo-1" href="/"><img class="logo" src="/assets/images/logo/dora-logo-color.png" alt="DORA Logo"></a>
-            <a class="logo-2" href="/"><img class="normal logo" src="/assets/images/logo/dora-logo-white.svg" alt="DORA Logo"></a>
             <div class="body d-none d-xl-block">
 
 
@@ -306,7 +286,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <li data-sal-delay="250" data-sal="slide-up" data-sal-duration="800"><a target="_blank"
                                 href="https://www.youtube.com/@doradigital"><i class="fab fa-youtube"></i></a></li>
                         <li data-sal-delay="350" data-sal="slide-up" data-sal-duration="800"><a target="_blank"
-                                href="https://www.linkedin.com/company/dora-holding/"><i
+                                href="https://www.linkedin.com/company/doraglobal/"><i
                                     class="fab fa-linkedin-in"></i></a></li>
                         <li data-sal-delay="450" data-sal="slide-up" data-sal-duration="800"><a target="_blank"
                                 href="https://instagram.com/dora.uz"><i
@@ -626,9 +606,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 </div>
                                 <div class="body">
                                     <ul class="list">
-                                        <li><a href="/service"><i class="fa-solid fa-angles-right"></i>@lang('index.website_development')</a></li>
-                                        <li><a href="/service"><i class="fa-solid fa-angles-right"></i>@lang('index.advertising')</a></li>
-                                        <li><a href="/service"><i class="fa-solid fa-angles-right"></i>@lang('index.social_media_add')</a></li>
+                                        <li><a href="{{route('about')}}"><i class="fa-solid fa-angles-right"></i>@lang('index.about')</a></li>
+                                        <li><a href="{{route('blog')}}"><i class="fa-solid fa-angles-right"></i>@lang('index.blog')</a></li>
                                         <li><a href="{{route('contact')}}"><i class="fa-solid fa-angles-right"></i>@lang('index.contact')</a></li>
                                     </ul>
                                 </div>
@@ -675,9 +654,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="rts-copyright-area-three">
             <div class="container">
                 <div class="row">
+                    
+                    
                     <div class="col-12">
                         <div class="wrapper">
                             <div class="left">
+                                
                                 <a href="https://www.iubenda.com/privacy-policy/74383217" title="@lang('index.privacy_terms')">@lang('index.privacy_terms')</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script> |
                                 <a href="/contact" style="margin-left: 0;">@lang('index.contact')</a>
                             </div>
@@ -686,7 +668,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             </div>
                             <div class="right">
                                 <!--<a href="/brif"> @lang('index.brif_title')</a>| -->
-                                <a href="/about" style="margin-left: 0;">@lang('index.about')</a>
+                                <!--<a href="/about" style="margin-left: 0;">@lang('index.about')</a>-->
+
+                                <a 
+                                href="https://www.sortlist.com/agency/dora" 
+                                style="display:inline-block; width:105px; height:30px;">
+                                    <img src="https://core.sortlist.com//_/apps/core/images/badges-en/badge-flag-black-dark-xl.svg" alt="stars"/>
+                                </a>
+                                
+                                
                             </div>
                         </div>
                     </div>
@@ -960,22 +950,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </style>
 
 
-
-       <!-- <div class="loader-wrapper">
-            <div class="loader">
-            </div>
-            <div class="loader-section section-left"></div>
-            <div class="loader-section section-right"></div>
-        </div> -->
-        
-        
-
          <script>
             let closeBox = document.getElementById('closeBox');
             closeBox.addEventListener('click', () => {
                 document.getElementById('popupBox').style.display = "none";
                 document.getElementById('owerly_DR').style.display = "none";
-                document.getElementById('consulting').style.display = "block";
+                document.getElementmaById('consulting').style.display = "block";
             });
             
             let owerly_DR = document.getElementById('owerly_DR');
@@ -993,7 +973,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             
         </script>
 
-        <script>(function (a, m, o, c, r, m) { a[m] = { id: "393785", hash: "7e5f1f6e679f0234f8fbd94734453eb3000b58c9724ba7dd3becfc9583ac7fc2", locale: "ru", inline: false, setMeta: function (p) { this.params = (this.params || []).concat([p]) } }; a[o] = a[o] || function () { (a[o].q = a[o].q || []).push(arguments) }; var d = a.document, s = d.createElement('script'); s.async = true; s.id = m + '_script'; s.src = 'https://gso.amocrm.ru/js/button.js?1694682227'; d.head && d.head.appendChild(s) }(window, 0, 'amoSocialButton', 0, 0, 'amo_social_button'));</script>
 
         <!-- scripts start form hear -->
         <script src="/assets/js/vendor/jquery.min.js"></script>

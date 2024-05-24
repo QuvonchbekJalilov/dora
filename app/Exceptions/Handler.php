@@ -2,11 +2,29 @@
 
 namespace App\Exceptions;
 
+use App\Models\Post;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
+use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
+use App\DesignService;
+use App\SeoService;
+use App\MarketingService;
+use App\SiteService;
 use Throwable;
 
 class Handler extends ExceptionHandler
 {
+    
+    public function render($request, Throwable $exception)
+    {
+        if ($exception instanceof NotFoundHttpException) {
+            $siteservices = SiteService::all();
+            $designservices = DesignService::all();
+            $seoservices = SeoService::all();
+            return response()->view('front.404', compact('siteservices','designservices','seoservices'), 404);
+        }
+    
+        return parent::render($request, $exception);
+    }
     /**
      * A list of the exception types that are not reported.
      *
@@ -38,4 +56,6 @@ class Handler extends ExceptionHandler
             //
         });
     }
+    
+    
 }

@@ -1,0 +1,5 @@
+[11-May-2024 09:49:09 Asia/Tashkent] PHP Warning:  require(/home/doradevu/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/doradevu/public_html/artisan on line 18
+[11-May-2024 09:49:09 Asia/Tashkent] PHP Fatal error:  Uncaught Error: Failed opening required '/home/doradevu/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/doradevu/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/doradevu/public_html/artisan on line 18

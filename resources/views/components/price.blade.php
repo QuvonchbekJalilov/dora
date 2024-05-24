@@ -1,30 +1,40 @@
-<div class="rts-breadcrumb-area breadcrumb-bg bg_image">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 breadcrumb-1">
-                    <h1 class="title" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">Price Plan</h1>
-                </div>
-                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
-                    <div class="bread-tag">
-                        <a href="index.html" data-sal-delay="250" data-sal="slide-up" data-sal-duration="800">Home</a>
-                        <span> / </span>
-                        <a href="#" class="active" data-sal-delay="450" data-sal="slide-up" data-sal-duration="800">Price Plan</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- end breadcrumb area -->
 
+<style>
+    .single-pricing-area-h2 .pricing-body .title {
+        font-size: 28px;
+    }
+    .single-feature {
+        position: relative;
+        transition: all 1s linear;
+    }
+    .feature-area-span span {
+        display: none;
+        position: absolute;
+        bottom: -16px;
+        left: -100px;
+        opacity: 0;
+        transition: all 1s linear;
+        
+    }
+    .feature-area-span {
+        cursor: pointer;
+        width: 100%;
+    }
+    .feature-area-span:hover > span {
+        display: block;
+        left: 15px;
+        bottom: -16px;
+        opacity: 1;
+        transition: all 1s linear;
+    }
+</style>
     <!-- rts pricing area start -->
     <div class="pricing-area-h2 rts-section-gap">
         <div class="container">
             <div class="row mb--30">
                 <div class="col-12">
-                    <div class="title-area text-center">
-                        <span data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">Price Table</span>
-                        <h2 class="title" data-sal-delay="250" data-sal="slide-up" data-sal-duration="800">Our Price
-                            Plan</h2>
+                    <div class="title-area">
+                        <h2 class="title" data-sal-delay="250" data-sal="slide-up" data-sal-duration="800">Техническая поддержка сайтов</h2>
                     </div>
                 </div>
             </div>
@@ -35,39 +45,56 @@
                     <div class="single-pricing-area-h2" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
                         <div class="pricing-head">
                             <h5 class="title">
-                                Price Table
+                                Базовый
                             </h5>
                         </div>
                         <div class="pricing-body">
                             <h3 class="title">
-                                $29 <span>/month</span>
+                                483.000 UZS <span>/ежемесячно</span>
                             </h3>
                             <p class="disc">
-                                Sodales curae dictum nisi duis purus sapien cum facilisi odio
+                                Мониторинг бесперебойной работы сайта, полное бэкапирование на наши сервера 1 раз в месяц
                             </p>
                             <div class="feature-area">
                                 <div class="single-feature">
-                                    <i class="fas fa-check-circle"></i>
-                                    <span>Business Solution</span>
+                                    <i class="fa-solid fa-circle-xmark text-danger"></i>
+                                    <span>Рекомендации по развитию сайта</span>
                                 </div>
                                 <div class="single-feature">
                                     <i class="fas fa-check-circle"></i>
-                                    <span>Expert Consultancy</span>
+                                    <span>Включенные работы</span>
                                 </div>
                                 <div class="single-feature">
                                     <i class="fas fa-check-circle"></i>
-                                    <span>Growth Management</span>
+                                    <span class="feature-area-span">
+                                        Включено часов 
+                                        <span style="font-size: 12px;">16ч (ставка  235.000 UZS)</span>
+                                    </span>
+                                    
                                 </div>
                                 <div class="single-feature">
                                     <i class="fas fa-check-circle"></i>
-                                    <span>Marketing Expert</span>
+                                    <span class="feature-area-span">Изменение контента
+                                        <span style="font-size: 12px;">100.000 UZS/ч</span>
+                                    </span>
+                                    
                                 </div>
                                 <div class="single-feature">
                                     <i class="fas fa-check-circle"></i>
-                                    <span>Content Solution</span>
+                                    <span class="feature-area-span">Стоимость часа сверх тарифа
+                                        <span style="font-size: 12px;">270.000 UZS</span>
+                                    </span>
+                                    
                                 </div>
+                                <div class="single-feature">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span class="feature-area-span">Время ответа менеджера
+                                        <span style="font-size: 12px;">Не более 4 часов</span>
+                                    </span>
+                                    
+                                </div> 
                             </div>
-                            <a class="rts-btn btn-secondary" href="#">Get Started</a>
+                            <a class="rts-btn btn-secondary" onclick="openBox_DR()">@lang('index.start')</a>
                         </div>
                     </div>
                     <!-- single pricing end -->
@@ -77,39 +104,56 @@
                     <div class="single-pricing-area-h2 standared" data-sal-delay="250" data-sal="slide-up" data-sal-duration="800">
                         <div class="pricing-head">
                             <h5 class="title">
-                                Standard Plan
+                                Бизнес
                             </h5>
                         </div>
                         <div class="pricing-body">
                             <h3 class="title">
-                                $59 <span>/month</span>
+                                795.000 UZS <span>/ежемесячно</span>
                             </h3>
                             <p class="disc">
-                                Sodales curae dictum nisi duis purus sapien cum facilisi odio
+                                Как в Базовом + инкрементное ежедневное бэкапирование проекта на наши площадки
                             </p>
                             <div class="feature-area">
                                 <div class="single-feature">
-                                    <i class="fas fa-check-circle"></i>
-                                    <span>Business Solution</span>
+                                    <i class="fa-solid fa-circle-xmark text-danger"></i>
+                                    <span>Рекомендации по развитию сайта</span>
                                 </div>
                                 <div class="single-feature">
                                     <i class="fas fa-check-circle"></i>
-                                    <span>Expert Consultancy</span>
+                                    <span>Включенные работы</span>
                                 </div>
                                 <div class="single-feature">
                                     <i class="fas fa-check-circle"></i>
-                                    <span>Growth Management</span>
+                                    <span class="feature-area-span">
+                                        Включено часов 
+                                        <span style="font-size: 12px;">50ч (ставка  205.000 UZS)</span>
+                                    </span>
+                                    
                                 </div>
                                 <div class="single-feature">
                                     <i class="fas fa-check-circle"></i>
-                                    <span>Marketing Expert</span>
+                                    <span class="feature-area-span">Изменение контента
+                                        <span style="font-size: 12px;">85.000 UZS/ч</span>
+                                    </span>
+                                    
                                 </div>
                                 <div class="single-feature">
                                     <i class="fas fa-check-circle"></i>
-                                    <span>Content Solution</span>
+                                    <span class="feature-area-span">Стоимость часа сверх тарифа
+                                        <span style="font-size: 12px;">240.000 UZS</span>
+                                    </span>
+                                    
                                 </div>
+                                <div class="single-feature">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span class="feature-area-span">Время ответа менеджера
+                                        <span style="font-size: 12px;">Не более 2 часов</span>
+                                    </span>
+                                    
+                                </div> 
                             </div>
-                            <a class="rts-btn btn-secondary" href="#">Get Started</a>
+                            <a class="rts-btn btn-secondary" onclick="openBox_DR()">@lang('index.start')</a>
                         </div>
                     </div>
                     <!-- single pricing end -->
@@ -119,39 +163,56 @@
                     <div class="single-pricing-area-h2" data-sal-delay="350" data-sal="slide-up" data-sal-duration="800">
                         <div class="pricing-head">
                             <h5 class="title">
-                                Premium Plan
+                                Корпоративный
                             </h5>
                         </div>
                         <div class="pricing-body">
                             <h3 class="title">
-                                $89 <span>/month</span>
+                                1.059.000 UZS <span>/ежемесячно</span>
                             </h3>
                             <p class="disc">
-                                Sodales curae dictum nisi duis purus sapien cum facilisi odio
+                                Как в Бизнес + ежемесячная проверка на уязвимости
                             </p>
                             <div class="feature-area">
                                 <div class="single-feature">
-                                    <i class="fas fa-check-circle"></i>
-                                    <span>Business Solution</span>
+                                    <i class="fa-solid fa-circle-xmark text-danger"></i>
+                                    <span>Рекомендации по развитию сайта</span>
                                 </div>
                                 <div class="single-feature">
                                     <i class="fas fa-check-circle"></i>
-                                    <span>Expert Consultancy</span>
+                                    <span>Включенные работы</span>
                                 </div>
                                 <div class="single-feature">
                                     <i class="fas fa-check-circle"></i>
-                                    <span>Growth Management</span>
+                                    <span class="feature-area-span">
+                                        Включено часов 
+                                        <span style="font-size: 12px;">90ч (ставка  185.000 UZS)</span>
+                                    </span>
+                                    
                                 </div>
                                 <div class="single-feature">
                                     <i class="fas fa-check-circle"></i>
-                                    <span>Marketing Expert</span>
+                                    <span class="feature-area-span">Изменение контента
+                                        <span style="font-size: 12px;">70.000 UZS/ч</span>
+                                    </span>
+                                    
                                 </div>
                                 <div class="single-feature">
                                     <i class="fas fa-check-circle"></i>
-                                    <span>Content Solution</span>
+                                    <span class="feature-area-span">Стоимость часа сверх тарифа
+                                        <span style="font-size: 12px;">220.000 UZS</span>
+                                    </span>
+                                    
                                 </div>
+                                <div class="single-feature">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span class="feature-area-span">Время ответа менеджера
+                                        <span style="font-size: 12px;">Не более 1 часов</span>
+                                    </span>
+                                    
+                                </div> 
                             </div>
-                            <a class="rts-btn btn-secondary" href="#">Get Started</a>
+                            <a class="rts-btn btn-secondary" onclick="openBox_DR()">@lang('index.start')</a>
                         </div>
                     </div>
                 </div>

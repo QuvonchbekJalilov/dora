@@ -4,157 +4,260 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
 
 <url>
   <loc>https://dora.uz/</loc>
-  <lastmod>2023-09-17T19:58:07+00:00</lastmod>
+  <lastmod>2024-05-18T14:19:26+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://dora.uz/about</loc>
-  <lastmod>2023-09-17T19:58:07+00:00</lastmod>
+  <lastmod>2024-05-18T14:19:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://dora.uz/service</loc>
-  <lastmod>2023-09-17T19:58:07+00:00</lastmod>
+  <lastmod>2024-05-18T14:19:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://dora.uz/site-services/3</loc>
-  <lastmod>2023-09-17T19:58:07+00:00</lastmod>
+  <lastmod>2024-05-18T14:19:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://dora.uz/site-services/4</loc>
-  <lastmod>2023-09-17T19:58:07+00:00</lastmod>
+  <lastmod>2024-05-18T14:19:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://dora.uz/site-services/5</loc>
-  <lastmod>2023-09-17T19:58:07+00:00</lastmod>
+  <lastmod>2024-05-18T14:19:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://dora.uz/site-services/6</loc>
-  <lastmod>2023-09-17T19:58:07+00:00</lastmod>
+  <lastmod>2024-05-18T14:19:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://dora.uz/site-services/7</loc>
-  <lastmod>2023-09-17T19:58:07+00:00</lastmod>
+  <lastmod>2024-05-18T14:19:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://dora.uz/site-services/8</loc>
-  <lastmod>2023-09-17T19:58:07+00:00</lastmod>
+  <lastmod>2024-05-18T14:19:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://dora.uz/design-services/3</loc>
-  <lastmod>2023-09-17T19:58:07+00:00</lastmod>
+  <lastmod>2024-05-18T14:19:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://dora.uz/design-services/4</loc>
-  <lastmod>2023-09-17T19:58:07+00:00</lastmod>
+  <lastmod>2024-05-18T14:19:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://dora.uz/design-services/5</loc>
-  <lastmod>2023-09-17T19:58:07+00:00</lastmod>
+  <lastmod>2024-05-18T14:19:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://dora.uz/design-services/7</loc>
-  <lastmod>2023-09-17T19:58:07+00:00</lastmod>
+  <lastmod>2024-05-18T14:19:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://dora.uz/design-services/8</loc>
-  <lastmod>2023-09-17T19:58:07+00:00</lastmod>
+  <lastmod>2024-05-18T14:19:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://dora.uz/design-services/10</loc>
-  <lastmod>2023-09-17T19:58:07+00:00</lastmod>
+  <lastmod>2024-05-18T14:19:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://dora.uz/design-services/11</loc>
-  <lastmod>2023-09-17T19:58:07+00:00</lastmod>
+  <lastmod>2024-05-18T14:19:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://dora.uz/seo-services/3</loc>
-  <lastmod>2023-09-17T19:58:07+00:00</lastmod>
+  <lastmod>2024-05-18T14:19:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://dora.uz/seo-services/6</loc>
-  <lastmod>2023-09-17T19:58:07+00:00</lastmod>
+  <lastmod>2024-05-18T14:19:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://dora.uz/seo-services/7</loc>
-  <lastmod>2023-09-17T19:58:07+00:00</lastmod>
+  <lastmod>2024-05-18T14:19:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://dora.uz/seo-services/8</loc>
-  <lastmod>2023-09-17T19:58:07+00:00</lastmod>
+  <lastmod>2024-05-18T14:19:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dora.uz/seo-services/9</loc>
+  <lastmod>2024-05-18T14:19:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://dora.uz/prices</loc>
-  <lastmod>2023-09-17T19:58:07+00:00</lastmod>
+  <lastmod>2024-05-18T14:19:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://dora.uz/portfolio</loc>
-  <lastmod>2023-09-17T19:58:07+00:00</lastmod>
+  <lastmod>2024-05-18T14:19:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://dora.uz/blog</loc>
-  <lastmod>2023-09-17T19:58:07+00:00</lastmod>
+  <lastmod>2024-05-18T14:19:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://dora.uz/contact</loc>
-  <lastmod>2023-09-17T19:58:07+00:00</lastmod>
+  <lastmod>2024-05-18T14:19:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://dora.uz/portfolio/3</loc>
-  <lastmod>2023-09-17T19:58:07+00:00</lastmod>
+  <loc>https://dora.uz/site</loc>
+  <lastmod>2024-05-18T14:19:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://dora.uz/portfolio/4</loc>
-  <lastmod>2023-09-17T19:58:07+00:00</lastmod>
+  <loc>https://dora.uz/ads</loc>
+  <lastmod>2024-05-18T14:19:26+00:00</lastmod>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dora.uz/marketing</loc>
+  <lastmod>2024-05-18T14:19:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dora.uz/tools</loc>
+  <lastmod>2024-05-18T14:19:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dora.uz/marketing/5</loc>
+  <lastmod>2024-05-18T14:19:26+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dora.uz/marketing/7</loc>
+  <lastmod>2024-05-18T14:19:26+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dora.uz/marketing/8</loc>
+  <lastmod>2024-05-18T14:19:26+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dora.uz/marketing/9</loc>
+  <lastmod>2024-05-18T14:19:26+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dora.uz/marketing/10</loc>
+  <lastmod>2024-05-18T14:19:26+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dora.uz/marketing/12</loc>
+  <lastmod>2024-05-18T14:19:26+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dora.uz/marketing/13</loc>
+  <lastmod>2024-05-18T14:19:26+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dora.uz/marketing/14</loc>
+  <lastmod>2024-05-18T14:19:26+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dora.uz/marketing/15</loc>
+  <lastmod>2024-05-18T14:19:26+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dora.uz/portfolio/13</loc>
+  <lastmod>2024-05-18T14:19:26+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dora.uz/portfolio/12</loc>
+  <lastmod>2024-05-18T14:19:26+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dora.uz/portfolio/11</loc>
+  <lastmod>2024-05-18T14:19:26+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://dora.uz/portfolio/5</loc>
-  <lastmod>2023-09-17T19:58:07+00:00</lastmod>
-  <priority>0.80</priority>
+  <lastmod>2024-05-18T14:19:26+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://dora.uz/blog/5</loc>
-  <lastmod>2023-09-17T19:58:07+00:00</lastmod>
-  <priority>0.80</priority>
+  <loc>https://dora.uz/portfolio/4</loc>
+  <lastmod>2024-05-18T14:19:26+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dora.uz/portfolio/3</loc>
+  <lastmod>2024-05-18T14:19:26+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://dora.uz/blog/7</loc>
-  <lastmod>2023-09-17T19:58:07+00:00</lastmod>
-  <priority>0.80</priority>
+  <lastmod>2024-05-18T14:19:26+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://dora.uz/assets/about_dora_ru.pdf</loc>
-  <lastmod>2023-09-04T15:24:23+00:00</lastmod>
+  <loc>https://dora.uz/blog/6</loc>
+  <lastmod>2024-05-18T14:19:26+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dora.uz/blog/5</loc>
+  <lastmod>2024-05-18T14:19:26+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dora.uz/blog/4</loc>
+  <lastmod>2024-05-18T14:19:26+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dora.uz/blog/3</loc>
+  <lastmod>2024-05-18T14:19:26+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dora.uz/blog/2</loc>
+  <lastmod>2024-05-18T14:19:26+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dora.uz/blog/1</loc>
+  <lastmod>2024-05-18T14:19:26+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 

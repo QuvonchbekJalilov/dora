@@ -28,6 +28,7 @@
 <!-- end breadcrumb area -->
 <!-- rts blog mlist area -->
 <div class="rts-blog-list-area rts-section-gap">
+    
    <div class="container">
       <div class="row g-5">
          <!-- rts blo post area -->
@@ -35,7 +36,7 @@
             <!-- single post -->
             <div class="blog-single-post-listing details mb--0">
                <div class="thumbnail">
-                  <img src="{{ asset('/storage/' . $blog->image) }}" alt="Business-Blog">
+                  <img src="{{ asset('/storage/' . $blog->image) }}" alt="{{$blog['title_'. \App::getLocale()]}}">
                </div>
                <div class="blog-listing-content">
                   <div class="user-info">
@@ -74,6 +75,24 @@
       </div>
    </div>
 </div>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "NewsArticle",
+      "headline": "{{$blog['title_'. \App::getLocale()]}}",
+      "image": [
+        "{{ asset('/storage/' . $blog->image) }}"
+       ],
+      "datePublished": "{{$blog->date}}",
+      "dateModified": "{{$blog->date}}",
+      "author": [{
+          "@type": "Person",
+          "name": "DORA",
+          "url": "https://dora.uz/blog"
+        }]
+    }
+    </script>
+    
 <style>
    .blog-text a{
    color: #3a37eb;

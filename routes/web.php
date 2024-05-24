@@ -2,6 +2,9 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\FrontController;
+use App\Http\Controllers\AdminController;
+use App\Http\Controllers\ServiceController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -30,13 +33,21 @@ Route::get('/presentation-teams',[FrontController::class,'presentation']);
 Route::get('/targeting',[FrontController::class,'smm']);
 Route::get('/development',[FrontController::class,'development']);
 Route::get('/ads',[FrontController::class,'ads'])->name('ads');
+Route::get('/marketing',[FrontController::class,'marketing'])->name('marketing');
+Route::get('/marketing/{id}',[FrontController::class,'marketing_single'])->name('marketing-single');
 Route::get('/site',[FrontController::class,'site'])->name('site');
 Route::get('/tools',[FrontController::class,'tools'])->name('tools');
 Route::get('/print',[FrontController::class,'print']);
 Route::get('/tahlil',[FrontController::class,'tahlil']);
 
+Route::get('/404',[FrontController::class,'404']);
 
+Route::get('/dictionaries',[FrontController::class,'dictionaries']);
 
+/*Admin TEST*/
+Route::get('/admin-2',[AdminController::class,'edit'])->name('admin-2');
+Route::resource('/adminPost', AdminController::class);
+        
 Route::get('/prices',[FrontController::class,'price'])->name('price');
 Route::get('/brif',[FrontController::class,'brif'])->name('brif');
 Route::get('/testimonial',[FrontController::class,'testimonial'])->name('testimonial');
@@ -48,6 +59,7 @@ Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });
 
+Route::resource('newService', ServiceController::class);
 Route::get('lang/{lang}', function($lang){
     session(['lang'=>$lang]);
     return back();

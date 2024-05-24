@@ -18,7 +18,7 @@
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-6 sal-animate p-0 grayscale-box" data-sal-delay="250" data-sal="slide-up" data-sal-duration="800">
                     <div class="single-service-step text-center" title="Biznesni rivojlantirish banki">
-                        <img src="assets/images/brand/brb.png" alt="Brand_area_images">
+                        <img src="assets/images/brand/brb.png" alt="Biznesni rivojlantirish banki">
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-6 sal-animate p-0 grayscale-box" data-sal-delay="350" data-sal="slide-up" data-sal-duration="800">
@@ -28,58 +28,58 @@
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-6 sal-animate d-none" data-sal-delay="350" data-sal="slide-up" data-sal-duration="800">
                     <div class="single-service-step text-center" title="МойСклад">
-                        <img src="assets/images/brand/moysklad.png" alt="Brand_area_images">
+                        <img src="assets/images/brand/moysklad.png" alt="МойСклад">
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-6 sal-animate d-none" data-sal-delay="350" data-sal="slide-up" data-sal-duration="800">
                     <div class="single-service-step text-center" title="amoCRM">
-                        <img src="assets/images/brand/amocrm.png" alt="Brand_area_images">
+                        <img src="assets/images/brand/amocrm.png" alt="amoCRM">
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-6 sal-animate p-0 grayscale-box" data-sal-delay="350" data-sal="slide-up" data-sal-duration="800">
                     <div class="single-service-step text-center" title="Carato Jewellery">
-                        <img src="assets/images/brand/carato.png" alt="Brand_area_images">
+                        <img src="assets/images/brand/carato.png" alt="Carato Jewellery">
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-6 sal-animate p-0 grayscale-box" data-sal-delay="350" data-sal="slide-up" data-sal-duration="800">
                     <div class="single-service-step text-center" title="Chef Catering">
-                        <img src="assets/images/brand/cefcate.png" alt="Brand_area_images">
+                        <img src="assets/images/brand/cefcate.png" alt="Chef Catering">
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-6 sal-animate p-0 grayscale-box" data-sal-delay="350" data-sal="slide-up" data-sal-duration="800">
                     <div class="single-service-step text-center" title="Kafil Sug'urta">
-                        <img src="assets/images/brand/kafil.png" alt="Brand_area_images">
+                        <img src="assets/images/brand/kafil.png" alt="Kafil Sug'urta">
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-6 sal-animate p-0 grayscale-box" data-sal-delay="350" data-sal="slide-up" data-sal-duration="800">
                     <div class="single-service-step text-center" title="Zuma Pharma">
-                        <img src="assets/images/brand/zuma.png" alt="Brand_area_images">
+                        <img src="assets/images/brand/zuma.png" alt="Zuma Pharma">
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-6 sal-animate p-0 grayscale-box" data-sal-delay="350" data-sal="slide-up" data-sal-duration="800">
                     <div class="single-service-step text-center" title="Fursat Electronics">
-                        <img src="assets/images/brand/fursat.png" alt="Brand_area_images">
+                        <img src="assets/images/brand/fursat.png" alt="Fursat Electronics">
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-6 sal-animate p-0 grayscale-box" data-sal-delay="350" data-sal="slide-up" data-sal-duration="800">
                     <div class="single-service-step text-center" title="Hamkor Sug'urta">
-                        <img src="assets/images/brand/hamkorsug.png" alt="Brand_area_images">
+                        <img src="assets/images/brand/hamkorsug.png" alt="Hamkor Sug'urta">
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-6 sal-animate p-0 grayscale-box" data-sal-delay="350" data-sal="slide-up" data-sal-duration="800">
                     <div class="single-service-step text-center" title="Узбекукув автоматика">
-                        <img src="assets/images/brand/uua.png" alt="Brand_area_images">
+                        <img src="assets/images/brand/uua.png" alt="UZUA">
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-6 sal-animate p-0 grayscale-box" data-sal-delay="350" data-sal="slide-up" data-sal-duration="800">
                     <div class="single-service-step text-center" title="UZBEK-CHINA TRADE CENTER">
-                        <img src="assets/images/brand/karvon.png" alt="Brand_area_images">
+                        <img src="assets/images/brand/karvon.png" alt="Karvon Trade">
                     </div>
                 </div>
                 
                   <div class="col-lg-3 col-md-4 col-sm-6 col-6 sal-animate p-0 grayscale-box" data-sal-delay="350" data-sal="slide-up" data-sal-duration="800">
                     <div class="single-service-step text-center" title="Sonic">
-                        <img src="assets/images/brand/sonic.png" alt="Brand_area_images">
+                        <img src="assets/images/brand/sonic.png" alt="Sonic">
                     </div>
                 </div>
                 
@@ -93,26 +93,26 @@
                 
                   <div class="col-lg-3 col-md-4 col-sm-6 col-6 sal-animate p-0 grayscale-box" data-sal-delay="350" data-sal="slide-up" data-sal-duration="800">
                     <div class="single-service-step text-center" title="Dusel">
-                        <img src="assets/images/brand/dusel.png" alt="Brand_area_images">
+                        <img src="assets/images/brand/dusel.png" alt="Dusel">
                     </div>
                 </div>
                 
                  <div class="col-lg-3 col-md-4 col-sm-6 col-6 sal-animate p-0 grayscale-box" data-sal-delay="350" data-sal="slide-up" data-sal-duration="800">
                     <div class="single-service-step text-center" title="Rise">
-                        <img src="assets/images/brand/rise.png" alt="Brand_area_images">
+                        <img src="assets/images/brand/rise.png" alt="Rise">
                     </div>
                 </div>
                  
                   <div class="col-lg-3 col-md-4 col-sm-6 col-6 sal-animate p-0 grayscale-box" data-sal-delay="350" data-sal="slide-up" data-sal-duration="800">
                     <div class="single-service-step text-center" title="Rokki">
-                        <img src="assets/images/brand/rokki.png" alt="Brand_area_images">
+                        <img src="assets/images/brand/rokki.png" alt="Rokki">
                     </div>
                 </div>
                 
                 
                  <div class="col-lg-3 col-md-4 col-sm-6 col-6 sal-animate p-0 grayscale-box" data-sal-delay="350" data-sal="slide-up" data-sal-duration="800">
                     <div class="single-service-step text-center" title="Aksessuar55">
-                        <img src="assets/images/brand/aksessuar.png" alt="Brand_area_images">
+                        <img src="assets/images/brand/aksessuar.png" alt="Aksessuar55">
                     </div>
                 </div> 
                 

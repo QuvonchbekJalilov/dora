@@ -8,7 +8,7 @@
                 </div>
             </div>
             <div class="row g-24 mt--5">
-                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12" data-sal-delay="450" data-sal="slide-up" data-sal-duration="800">
+                <div class="col-xl-4 col-lg-4 col-md-5 col-sm-5" data-sal-delay="450" data-sal="slide-up" data-sal-duration="800">
                     <!-- single service area start -->
                     <div class="rts-single-service-one home-three text-center">
                         <div class="icon">
@@ -26,13 +26,13 @@
                     </div>
                     <!-- single service area end -->
                 </div>
-                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
+                <div class="col-xl-4 col-lg-4 col-md-5 col-sm-5" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
                     <!-- single service area start -->
                     <div class="rts-single-service-one home-three text-center">
                         <div class="icon">
                             <img src="assets/images/service/09.svg" alt="axela_service">
                         </div>
-                        <a href="/ads">
+                        <a href="/marketing">
                             <h5 class="title">
                                 @lang('index.marketing')
                             </h5>
@@ -40,12 +40,12 @@
                         <p class="disc">
                             @lang('index.marketing_info')
                         </p>
-                        <a href="/ads" class="rts-read-more two">@lang('index.buttons.more-details')<i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="/marketing" class="rts-read-more two">@lang('index.buttons.more-details')<i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                     <!-- single service area end -->
                 </div>
                 
-                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12" data-sal-delay="350" data-sal="slide-up" data-sal-duration="800">
+                <div class="col-xl-4 col-lg-4 col-md-5 col-sm-5" data-sal-delay="350" data-sal="slide-up" data-sal-duration="800">
                     <!-- single service area start -->
                     <div class="rts-single-service-one home-three text-center">
                         <div class="icon">
@@ -58,6 +58,25 @@
                         </a>
                         <p class="disc">
                             @lang('index.branding_info')
+                        </p>
+                        <a href="/tools" class="rts-read-more two">@lang('index.buttons.more-details')<i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                    <!-- single service area end -->
+                </div>
+                
+                <div class="col-xl-4 col-lg-4 col-md-5 col-sm-5 d-block d-lg-none d-sm-block" data-sal-delay="350" data-sal="slide-up" data-sal-duration="800">
+                    <!-- single service area start -->
+                    <div class="rts-single-service-one home-three text-center">
+                        <div class="icon">
+                            <img src="assets/images/service/04.svg" alt="axela_service">
+                        </div>
+                        <a href="/tools">
+                            <h5 class="title">
+                                @lang('index.automation')
+                            </h5>
+                        </a>
+                        <p class="disc">
+                            @lang('index.automation_desc')
                         </p>
                         <a href="/tools" class="rts-read-more two">@lang('index.buttons.more-details')<i class="fa-solid fa-arrow-right"></i></a>
                     </div>

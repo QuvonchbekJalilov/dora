@@ -43,6 +43,9 @@
                   <li class="nav-item" role="presentation">
                      <button class="nav-link" id="contact-tabs" data-bs-toggle="tab" data-bs-target="#contacts" type="button" role="tab" aria-controls="contacts" aria-selected="false"> @lang('index.social_media_add') </button>
                   </li>
+                  <li class="nav-item" role="presentation">
+                     <button class="nav-link" id="marketing-tabs" data-bs-toggle="tab" data-bs-target="#marketing" type="button" role="tab" aria-controls="marketing" aria-selected="false"> @lang('index.marketing') </button>
+                  </li>
                </ul>
             </div>
             <div class="tab-content-area mt--50 mt_sm--30">
@@ -95,6 +98,26 @@
                      </div>
                      <!-- tab product area end-->
                   </div>
+                  <div class="tab-pane fade" id="marketing" role="tabpanel" aria-labelledby="marketing-tab">
+                     <!-- tab product area -->
+                     <div class="row g-5">
+                        @foreach($marketing as $item)
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+                           <!-- single -product area -->
+                           <div class="rts-product-one">
+                              <div class="product-contact-wrapper">
+                                 <a href="{{ route('marketing-single', $item->id) }}">
+                                    <h5 class="title">{{ $item['title_'. \App::getLocale()] }}</h5>
+                                 </a>
+                                 <span class="text-primary">@lang('index.marketing')</span>
+                              </div>
+                           </div>
+                           <!-- single -product area End -->
+                        </div>
+                        @endforeach
+                     </div>
+                     <!-- tab product area end-->
+                  </div>
                   <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                      <!-- tab product area -->
                      <div class="row g-5">
@@ -106,7 +129,7 @@
                                  <a href="{{ route('designservicesID', $designservice->id) }}">
                                     <h5 class="title">{{$designservice['title_'. \App::getLocale()] }}</h5>
                                  </a>
-                                 <span class="text-primary">@lang('index.website_development')</span>
+                                 <span class="text-primary">@lang('index.advertising')</span>
                               </div>
                            </div>
                            <!-- single -product area End -->
@@ -126,7 +149,7 @@
                                  <a href="{{ route('siteservicesID', $item->id) }}">
                                     <h5 class="title"> {{ $item['title_' . \App::getLocale()] }}</h5>
                                  </a>
-                                 <span class="text-primary">@lang('index.advertising')</span>
+                                 <span class="text-primary">@lang('index.website_development')</span>
                               </div>
                            </div>
                            <!-- single -product area End -->

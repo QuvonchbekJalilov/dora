@@ -1,7 +1,7 @@
 @extends('layouts.layout')
 @section('content')
 
-@section('title')Проект "{{$portfolio['title_'. \App::getLocale()] }}" от Доры @endsection
+@section('title')Проект "{{$portfolio['title_'. \App::getLocale()] }}" от DORA @endsection
 
 @section('desc'){{$portfolio['title_'. \App::getLocale()] }} Это @lang('desc.portfolio').@endsection
 

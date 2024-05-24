@@ -1,12 +1,26 @@
 @extends('layouts.layout')
 
-@section('title')Разработка {{$site_services['title_'. \App::getLocale()] }} в Ташкенте Цена от {{$site_services['price'] }}$ - DORA @endsection
+@section('title')Разработка {{$site_services['title_'. \App::getLocale()] }} в Ташкенте Цена от {{$site_services['price'] }}$ | DORA® @endsection
 
 @section('desc')Разработка {{$site_services['title_'. \App::getLocale()] }} в Ташкенте Цена от {{$site_services['price'] }}$, @lang('desc.services')@endsection
 
 @section('keywords')Разработка сайтов, СММ продвижение, Создание сайтов, Продвижение соц сетях, Разработка интернет магазинов в ташкенте, разработка логотипов в ташкенте, разработка телеграм ботов, создание телеграм ботов, брендинг в ташкенте, сео продвижение, seo продвижение сайтов в ташкенте, контекстная реклама, срм системы в ташкенте, программа для автоматизации, битрикс24, разработчики сайтов, рекламные ролики, видеосъемка в ташкенте, рекламные компании, веб студия, онлайн реклама, нейминг в ташкенте, разработка мобильных приложении, amocrm, амосрм, мой склад, складской учет, программа для торговли@endsection
 
 @section('content')
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "Сколько стоит создание {{$site_services['title_'. \App::getLocale()] }} в Ташкенте?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<p>Стоимость создания {{$site_services['title_'. \App::getLocale()] }} начинается от {{$site_services['price'] }}$ за базовый проект и может достигать выше за сложные многофункциональные решения с уникальным дизайном и обширной автоматизацией бизнес-процессов.</p>"
+        }
+      }]
+    }
+    </script>
     <div class="rts-breadcrumb-area breadcrumb-bg bg_image">
         <div class="container">
             <div class="row align-items-center">

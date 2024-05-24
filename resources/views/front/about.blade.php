@@ -72,7 +72,7 @@
 <!-- about us area end -->
 
 <!-- project section srart -->
-<div class="rts-project-area rts-section-gap ">
+<div class="rts-project-area rts-section-gap d-none">
     <div class="container">
         <div class="row">
             <div class="title-area text-start">
@@ -327,6 +327,7 @@
     </div>
 </div>
 <!-- project section end -->
+<x-price />
 
 <x-brend />
 

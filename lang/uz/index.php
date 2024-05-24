@@ -1,5 +1,6 @@
 <?php
 return[
+    'marketing' => 'Marketing',
     'comming_soon'  =>  'Tez kunda!',
     'banner' => [ 
         'title' => "Ariza qoldiring",
@@ -18,10 +19,11 @@ return[
         'view'  =>  "Ko'rish",
     ],
     "popular_service"   => [
-        "corporate_website" => "KORPORATIV VEB-SAYTLAR",
-        "create_logo" => "LOGO ISHLAB CHIQISH",
-        "add_crm" => "SOTUV BO'LIMI UCHUN CRM TIZIMI",
-        "smm_sevice" => "SMM XIZMATLARI",
+        "popular_service"   =>  "Mashxur xizmatlar",
+        "corporate_website" => "Korporativ veb-saytlar",
+        "create_logo" => "Logotip yaratish",
+        "add_crm" => "CRM tizimi",
+        "smm_sevice" => "SMM xizmatlari",
     ],
     "web_service" => [
         'advantage_title_1' =>  "Moslashuvchanlik",
@@ -45,6 +47,11 @@ return[
         'service_desc_5' =>  "Biz META teglarini to'ldiramiz va dinamik sayt xaritasini yaratamiz. Biz ichki va tashqi veb-saytlarni optimallashtirish bilan ishlaymiz. Biz analitik hisoblagichlarni birlashtiramiz, saytni Yandex.Webmaster va Google Search Console-ga qo'shamiz.",  
         'service_title_6' =>  "WEB-SAYTNI ISHLATISH",    
         'service_desc_6' =>  "Biz kodni optimallashtiramiz, tasvirlarni siqamiz, keshlashni o'rnatamiz. Biz treningni taqdim etamiz va saytdan mijozga kirishni jo'natamiz. Biz Internetda veb-saytni keyingi targ'ib qilish bo'yicha bepul maslahat beramiz.",  
+    ],
+    "404"   =>  [
+        "title" =>  "Sahifa topilmadi",
+        "desc" =>  "Veb-saytda ushbu sahifa yo'q, sizda qandaydir savollar bo'lsa bizga murojaat qiling",
+        "404"   =>  "Bosh sahifaga qaytish"
     ],
     'price_title'   => "Xizmatlar narxlari haqida batafsil malumot",
     'testimonial_title' =>  "Izohlar",
@@ -164,6 +171,8 @@ Bizning vazifamiz- mijozlarimizning savdo hajmini oshirish orqali ularning o'sis
     'website_development' => "Veb-saytlarni yaratish",
     'advertising' => "Reklama va rivojlantirish",
     'social_media_add' => "Biznes uchun vositalar",
+    "automation"    =>  "Biznesni avtomatlashtirish",
+    "automation_desc"   =>  "Barcha muvaffaqiyatli kompaniyalar raqamli texnologiyalarning afzalliklaridan foydalanadilar",
     'appointment' => "Biznesingizni biz bilan ajoyib qiling",
     'appointment_send' => "Ariza qoldiring",
     'contact_detail' => "Kontakt ma'lumotlarini qoldiring",

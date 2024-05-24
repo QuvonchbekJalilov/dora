@@ -1,5 +1,6 @@
 <?php
 return[
+    'marketing' => 'Marketing',
     'comming_soon'  =>  'Comming soon!',
     'banner' => [ 
         'title' => "Leave a request",
@@ -18,6 +19,7 @@ return[
         'view'  =>  "View"
     ],
     "popular_service"   => [
+        "popular_service"   =>  "Popular services",
         "corporate_website" => "CORPORATE SITES",
         "create_logo" => "CREATE LOGO",
         "add_crm" => "CRM SYSTEM FOR SALES DEPARTMENT",
@@ -45,6 +47,11 @@ return[
         'service_desc_5' =>  "We fill in META tags and create a dynamic site map. We work with internal and external website optimization. We integrate analytics counters, add the site to Yandex.Webmaster and Google Search Console.",  
         'service_title_6' =>  "WEBSITE LAUNCH",    
         'service_desc_6' =>  "We optimize the code, compress images, set up caching. We provide training and send access from the site to the customer. We provide a free consultation on further website promotion on the Internet.",  
+    ],
+     "404"   =>  [
+        "title" =>  "Page not found",
+        "desc" =>  "This page is missing from the website, please contact us if you have any questions",
+        "btn"   =>  "Return to home page"
     ],
     'testimonial_title' =>  "Reviews",
     'brif'  => "Brief",
@@ -159,6 +166,8 @@ Our mission is to increase the sales volume of our customers and contribute to t
     'marketing_info' => "We help businesses maximize their potential by developing effective marketing strategies.",
     'branding' => "Branding",
     'branding_info' => "We help businesses establish a strong identity that resonates with their target audience.",
+    "automation"    =>  "Automation business",
+    "automation_desc"   =>  "All successful companies take advantage of digital technologies.",
     'design' => "Design",
     'design_info' => "Our team is dedicated to creating unique and innovative designs that will bring your vision to life",
     'website_development' => "Website development",

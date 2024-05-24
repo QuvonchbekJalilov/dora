@@ -14,7 +14,11 @@ use App\SiteService;
 use App\Rewiev;
 use App\DesignService;
 use App\SeoService;
+use App\MarketingService;
 use App\Models\User;
+use App\Dictionary;
+
+
 
 class FrontController extends Controller
 {
@@ -79,6 +83,7 @@ class FrontController extends Controller
         return view('front.tahlil');
     }
 
+   
     public function presentation()
     {
         $teams = Team::paginate(10);
@@ -86,6 +91,16 @@ class FrontController extends Controller
         $designservices = DesignService::all();
         $seoservices = SeoService::all();
         return view('front.presentation',compact('teams','siteservices','designservices','seoservices'));
+    }
+    
+     public function dictionaries()
+    {
+        $dictionaries = Dictionary::take(10)->get();
+         $teams = Team::paginate(10);
+        $siteservices = SiteService::all();
+        $designservices = DesignService::all();
+        $seoservices = SeoService::all();
+        return view('front.dictionaries',compact('teams','siteservices','designservices','seoservices', 'dictionaries'));
     }
     
    public function siteservicesID($id)
@@ -96,6 +111,18 @@ class FrontController extends Controller
         $site_services = SiteService::all()->find($id);
         return view('front.services-id', compact('site_services','siteservices','designservices','seoservices'));
     }
+    
+    public function marketing_single($id)
+    {
+        $seoservices = SeoService::all();
+        $siteservices = SiteService::all();
+        $designservices = DesignService::all();
+        
+        $product = MarketingService::all()->find($id);
+        
+        return view('front.service-id', compact('product','siteservices','designservices','seoservices'));
+    }
+    
 
     public function designservicesID($id)
     {
@@ -160,7 +187,8 @@ class FrontController extends Controller
         $siteservices = SiteService::all();
         $blogs = Blog::paginate(100);
         $designservices = DesignService::all();
-        return view('front.ServiceList',compact('blogs','siteservices','designservices','seoservices'));
+        $marketing = MarketingService::all();
+        return view('front.ServiceList',compact('blogs','siteservices','designservices','seoservices', 'marketing'));
     }
 
     // marketing
@@ -171,7 +199,9 @@ class FrontController extends Controller
         $siteservices = SiteService::all();
         $blogs = Blog::paginate(100);
         $designservices = DesignService::all();
-        return view('front.tools',compact('blogs','siteservices','designservices','seoservices',));
+         $marketing = MarketingService::all();
+         
+        return view('front.tools',compact('blogs','siteservices','designservices','seoservices', 'marketing'));
     }
 
     public function ads()
@@ -180,7 +210,18 @@ class FrontController extends Controller
         $siteservices = SiteService::all();
         $blogs = Blog::paginate(100);
         $designservices = DesignService::all();
-        return view('front.ads',compact('blogs','siteservices','designservices','seoservices',));
+        $marketing = MarketingService::all();
+        return view('front.ads',compact('blogs','siteservices','designservices','seoservices', 'marketing', ));
+    }
+    
+     public function marketing()
+    {
+        $marketing = MarketingService::all();
+        $seoservices = SeoService::all();
+        $siteservices = SiteService::all();
+        $blogs = Blog::paginate(100);
+        $designservices = DesignService::all();
+        return view('front.marketing',compact('blogs','siteservices','designservices','seoservices', 'marketing',));
     }
 
     public function site()
@@ -189,7 +230,8 @@ class FrontController extends Controller
         $siteservices = SiteService::all();
         $blogs = Blog::paginate(100);
         $designservices = DesignService::all();
-        return view('front.site',compact('blogs','siteservices','designservices','seoservices',));
+         $marketing = MarketingService::all();
+        return view('front.site',compact('blogs','siteservices','designservices','seoservices', 'marketing',));
     }
 
 
@@ -237,11 +279,15 @@ class FrontController extends Controller
 
     public function blogid($id)
     {
-        $seoservices = SeoService::all();
-        $designservices = DesignService::all();
+       $seoservices = SeoService::all();
+       $designservices = DesignService::all();
        $siteservices = SiteService::all();
        $blog = Blog::find($id);
+       if (!isset($blog)) {
+        return abort(404);
+       } else {
         return view('front.blog-list', compact('blog','siteservices','designservices','seoservices'));
+       }
     }
 
 
